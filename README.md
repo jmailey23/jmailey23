@@ -20,12 +20,8 @@ Paid SaaS. Claude classifies each message into structured JSON that drives the a
 
 Stripe Checkout with signed webhooks, installment plans allocated in SQL so balances cannot drift, tokenized client pages, PDF invoices, reminders and weekly client recaps. Guarded by a pre deploy check that fails the build on leaked secrets and broken invariants.
 
-**Marketing sites** · Sanity CMS
-
-Client sites the owners edit themselves in Sanity Studio: Byrom Rose on Astro, and jumpautomations.com on a reusable Next.js starter.
-
 **Stack**
 
-TypeScript, Python, PostgreSQL, Supabase, Next.js, Astro, React, Swift, Deno, Stripe, Anthropic Claude API (tool calling, structured output), Gmail, HubSpot and JobTread APIs.
+TypeScript, Python, PostgreSQL, Supabase, Next.js, React, Swift, Deno, Stripe, Anthropic Claude API (tool calling, structured output), Gmail, HubSpot and JobTread APIs.
 
 [Case studies](https://jumpautomations.com/work) · [LinkedIn](https://linkedin.com/in/jeffreymailey) · jeffrey@jumpautomations.com
