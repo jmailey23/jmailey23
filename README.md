@@ -2,7 +2,7 @@
 
 Forward deployed engineer in Dallas. I embed in a company's operations, find the work done by hand every week, and ship the AI system that replaces it. Founder of [Jump Automations](https://jumpautomations.com).
 
-Most of what I build runs inside client businesses, so the repositories are private. Here is what's in them.
+Most of what I build runs inside client businesses, so those repositories are private. [**ops-intake**](https://github.com/jmailey23/ops-intake) is the public one: the core of the Byrom Rose pipeline below, rebuilt with a fictional company so the design can be read and run. Rules where a mistake is expensive, Claude where it is cheap to catch, row level security in Postgres, 25 tests.
 
 **Byrom Rose Ops** · operations platform for a Dallas general contractor
 
