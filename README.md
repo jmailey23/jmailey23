@@ -10,7 +10,7 @@ Every inbound email and JobTread update for the business runs through one pipeli
 
 **CPK Collective** · client platform for a Dallas apartment locating brokerage
 
-106 clients log in to a dashboard built around how the brokerage actually works: search status, tour schedule and properties report, pulled live from their HubSpot CRM through an authenticated edge function so the CRM token never reaches the browser. Freeform notes from the brokers are parsed into structured tour cards, and the dashboard changes shape from search to move in as the client's stage changes. Signup is limited to verified clients, every new account gets a welcome email, and the brokers edit site content from a Google Sheet without a developer. Supabase with row level security, Deno edge functions, vanilla JavaScript.
+106 clients log in to a dashboard built around how the brokerage actually works: search status, tour schedule and properties report, pulled live from their HubSpot CRM through an authenticated edge function so the CRM token never reaches the browser. Freeform notes from the brokers are parsed into structured tour cards, and the dashboard changes shape from search to move in as the client's stage changes. Signup checks the email against the CRM first, a scheduled function emails each client the moment their search is ready (91 sent since June, replacing the HubSpot automation tier the brokerage paid about $800 a month for), and the brokers edit site content from a Google Sheet without a developer. Supabase with row level security, Deno edge functions, vanilla JavaScript.
 
 **Snailmail** · AI inbox agent, web and iOS
 
