@@ -6,7 +6,7 @@ Most of what I build runs inside client businesses, so the repositories are priv
 
 **Byrom Rose Ops** · operations platform for a Dallas general contractor
 
-An LLM agent reads every inbound email and JobTread update for the business (686 since July), pulls out the action items, and files 97 percent of job related ones to the right job with no human sorting. Owner level decisions are flagged rather than guessed. JobTread job costing, calendar invites to meetings, weekly crew timesheets, a client portal, voice notes and photos into the same pipeline. Supabase Postgres, 16 Deno edge functions, 72 row level security policies across eight roles. Empty project to production in under three weeks.
+Every inbound email and JobTread update for the business runs through one pipeline, 686 since July. Notes from the team become tasks, and 97 percent of job related tasks file themselves to the right job by deterministic matching. Anything ambiguous waits for a person instead of guessing, and money, scope and client issues are flagged for the owner. Claude works where judgment is needed and a mistake is cheap to catch: reading meetings out of notes, turning site visit recordings into recaps, and reading photos of checks and receipts into structured facts a person then approves. JobTread job costing, weekly crew timesheets, a client portal and estimate PDFs. Supabase Postgres, 16 Deno edge functions, 72 row level security policies across eight roles. Empty project to production in under three weeks.
 
 **Snailmail** · AI inbox agent, web and iOS
 
