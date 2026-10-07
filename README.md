@@ -18,7 +18,7 @@ Every inbound email and JobTread update for the business runs through one pipeli
 
 **Snailmail** · AI inbox agent, web and iOS
 
-Paid SaaS. 720,290 messages processed across 29,442 engine runs since February. Rules settle most decisions, and Claude only weighs in on borderline mail, as half of a score the user's appetite dial still has to clear. Passed Google OAuth verification for restricted Gmail scopes and a CASA Tier 2 security assessment. FastAPI, Supabase, Stripe, SwiftUI.
+Paid SaaS. 720,290 messages processed across 29,442 engine runs since February. Rules settle most decisions, and Claude only weighs in on borderline mail, as half of a score the user's appetite dial still has to clear. Passed Google OAuth verification for restricted Gmail scopes and a CASA Tier 2 security assessment. FastAPI on Railway, Supabase, Stripe, SwiftUI.
 
 **Jump billing** · invoicing and client payments
 
