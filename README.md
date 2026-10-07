@@ -2,9 +2,10 @@
 
 Forward deployed engineer in Dallas. I embed in a company's operations, find the work done by hand every week, and ship the AI system that replaces it. Founder of [Jump Automations](https://jumpautomations.com).
 
-Most of what I build runs inside client businesses, so those repositories are private. Two are rebuilt in public with fictional companies so the design can be read and run:
+Most of what I build runs inside client businesses or my own products, so those repositories are private. Three are rebuilt in public with fictional companies so the design can be read and run:
 
 - [**ops-intake**](https://github.com/jmailey23/ops-intake): the Byrom Rose pipeline below. Rules where a mistake is expensive, Claude where it is cheap to catch, row level security in Postgres, 25 tests.
+- [**inbox-agent**](https://github.com/jmailey23/inbox-agent): the engine behind Snailmail below. Rules decide first, Claude only sees borderline mail, anything unsure is flagged for a person, and nothing is ever deleted outright. 39 tests.
 - [**client-portal**](https://github.com/jmailey23/client-portal): the CPK Collective portal below. A live CRM behind a server function that never hands the browser its token, allowlisted fields, idempotent welcome emails, 32 tests.
 
 **Byrom Rose Ops** · operations platform for a Dallas general contractor
@@ -17,7 +18,7 @@ Every inbound email and JobTread update for the business runs through one pipeli
 
 **Snailmail** · AI inbox agent, web and iOS
 
-Paid SaaS. Claude classifies each message into structured JSON that drives the agent. Passed Google OAuth verification for restricted Gmail scopes and a CASA Tier 2 security assessment. FastAPI, Supabase, Stripe, SwiftUI.
+Paid SaaS. 720,290 messages processed across 29,442 engine runs since February. Rules settle most decisions, and Claude only weighs in on borderline mail, as half of a score the user's appetite dial still has to clear. Passed Google OAuth verification for restricted Gmail scopes and a CASA Tier 2 security assessment. FastAPI, Supabase, Stripe, SwiftUI.
 
 **Jump billing** · invoicing and client payments
 
